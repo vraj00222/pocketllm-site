@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: "PocketLLM — Your AI lives on a USB stick",
   description:
     "Run local LLMs from a USB drive. No install, no cloud, no trace. Plug in, chat, unplug. Works on macOS and Linux.",
-  metadataBase: new URL("https://pocketllm.dev"),
+  metadataBase: new URL("https://pocketllm-site.vercel.app"),
   other: {
     "theme-color": "#06080d",
   },
@@ -33,12 +33,21 @@ export const metadata: Metadata = {
     description:
       "Run local LLMs from a USB drive. No install, no cloud, no trace. Plug in, chat, unplug.",
     type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "PocketLLM — Your AI lives on a USB stick",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "PocketLLM — Your AI lives on a USB stick",
     description:
       "Run local LLMs from a USB drive. No install, no cloud, no trace.",
+    images: ["/og.png"],
   },
 };
 
